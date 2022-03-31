@@ -3,6 +3,7 @@ import { HeaderAppBar, HeaderLogo } from "./Header.style";
 import { Toolbar, Container } from "@mui/material";
 
 const Header: React.FC = () => {
+  //sticky para deixar fixo em cima
   return (
     <HeaderAppBar position={"sticky"}>
       <Toolbar component={Container}>

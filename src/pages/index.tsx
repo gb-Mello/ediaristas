@@ -13,7 +13,12 @@ const Home: NextPage = () => {
           "Preencha seu endereço e veja todos os profissionais da sua localidade"
         }
       />
-      <UserInformation />
+      <UserInformation
+        name={"Gabriel Pereira"}
+        picture={"https://github.com/gb-Mello"}
+        rating={3}
+        description={"São Paulo"}
+      />
     </div>
   );
 };
