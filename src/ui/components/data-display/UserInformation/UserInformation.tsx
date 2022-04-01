@@ -12,6 +12,7 @@ interface UserInformationProps {
   name: string;
   rating: number;
   description?: string;
+  props: string;
 }
 
 const UserInformation: React.FC<UserInformationProps> = ({
